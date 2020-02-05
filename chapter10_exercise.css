@@ -56,42 +56,18 @@ main{
 }
 .title{
     margin: 15px 0 5px;
-  }
 
+}
+
+/*768px以下適用*/
 @media screen and (max-width: 768px){
   main{
-  width: 100%;
-  margin: 50px auto;
-}
-
-.step-box{
-  float: left;
-  width: 90%;
-  margin-right: 30px;
-  padding: 10px;
-  position: relative;
-  border: 1px solid #eee;
-}
-
-.step-box:last-child{
-  margin-right: 0;
-}
-
-.step-img1{
-  height: 150px;
-  background-image: url(img/flow01.png);
-    background-size: cover;
-    background-position: bottom;
-}
-.step-img2{
-  height: 150px;
-  background-image: url(img/flow02.png);
-    background-size: cover;
-    background-position: bottom;
-}
-.step-img3{
-  height: 150px;
-  background-image: url(img/flow03.png);
-    background-size: cover;
-    background-position: bottom;
+    width: 100%;
+  }
+  .step-box{
+    width: 90%;
+    float: none;
+    margin: 20px;
+    margin-right: 0;
+  }
 }
